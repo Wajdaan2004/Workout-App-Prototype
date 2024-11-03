@@ -12,7 +12,7 @@ export default function Page() {
 
   useEffect(() => {
     setRegimenData(data[selectedRegimen]);
-    setSelectedDayIndex(0); // Reset day view when regimen changes
+    setSelectedDayIndex(0);
   }, [selectedRegimen]);
 
   const handleRegimenSelect = (regimen) => {
