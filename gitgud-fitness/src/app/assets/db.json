@@ -1,0 +1,46 @@
+{
+  "PPL": {
+    "days": [
+      { "day": "Monday", "workout": ["Push: Bench Press", "Overhead Press", "Tricep Pushdown"] },
+      { "day": "Tuesday", "workout": ["Pull: Deadlift", "Pull-ups", "Bicep Curl"] },
+      { "day": "Wednesday", "workout": ["Legs: Squats", "Leg Press", "Calf Raises"] },
+      { "day": "Thursday", "workout": ["Rest"] },
+      { "day": "Friday", "workout": ["Push: Dumbbell Press", "Dips", "Shoulder Press"] },
+      { "day": "Saturday", "workout": ["Pull: Barbell Rows", "Lat Pulldowns", "Hammer Curl"] },
+      { "day": "Sunday", "workout": ["Legs: Lunges", "Leg Extensions", "Leg Curl"] }
+    ]
+  },
+  "Bro-Split": {
+    "days": [
+      { "day": "Monday", "workout": ["Chest: Bench Press", "Dumbbell Flyes", "Push-Ups"] },
+      { "day": "Tuesday", "workout": ["Back: Deadlift", "Pull-ups", "Rows"] },
+      { "day": "Wednesday", "workout": ["Shoulders: Shoulder Press", "Lateral Raises", "Face Pulls"] },
+      { "day": "Thursday", "workout": ["Legs: Squats", "Leg Press", "Calf Raises"] },
+      { "day": "Friday", "workout": ["Arms: Bicep Curls", "Tricep Extensions", "Hammer Curls"] },
+      { "day": "Saturday", "workout": ["Rest"] },
+      { "day": "Sunday", "workout": ["Rest"] }
+    ]
+  },
+  "Upper-Lower": {
+    "days": [
+      { "day": "Monday", "workout": ["Upper: Bench Press", "Pull-ups", "Shoulder Press"] },
+      { "day": "Tuesday", "workout": ["Lower: Squats", "Leg Press", "Lunges"] },
+      { "day": "Wednesday", "workout": ["Rest"] },
+      { "day": "Thursday", "workout": ["Upper: Incline Bench Press", "Rows", "Lat Pulldowns"] },
+      { "day": "Friday", "workout": ["Lower: Deadlift", "Leg Extensions", "Calf Raises"] },
+      { "day": "Saturday", "workout": ["Rest"] },
+      { "day": "Sunday", "workout": ["Rest"] }
+    ]
+  },
+  "Full-Body": {
+    "days": [
+      { "day": "Monday", "workout": ["Squats", "Push-Ups", "Pull-Ups"] },
+      { "day": "Tuesday", "workout": ["Deadlift", "Overhead Press", "Rows"] },
+      { "day": "Wednesday", "workout": ["Rest"] },
+      { "day": "Thursday", "workout": ["Lunges", "Push-Ups", "Lat Pulldowns"] },
+      { "day": "Friday", "workout": ["Bench Press", "Curls", "Tricep Extensions"] },
+      { "day": "Saturday", "workout": ["Rest"] },
+      { "day": "Sunday", "workout": ["Rest"] }
+    ]
+  }
+}
