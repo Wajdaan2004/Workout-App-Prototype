@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./carstyle.css";
 
 export default function CarouselComponent({ onSelectRegimen }) {
   const regimens = ["PPL", "Bro-Split", "Upper-Lower", "Full-Body"];
@@ -15,10 +16,34 @@ export default function CarouselComponent({ onSelectRegimen }) {
   };
 
   return (
-    <div className="carousel">
-      <button onClick={handlePrev}>Previous</button>
-      <h2>{regimens[selectedRegimen]}</h2>
-      <button onClick={handleNext}>Next</button>
+    <div className="carousel-container">
+      <button className="carousel-btn" onClick={handlePrev}>
+        &lt; {/* Left arrow */}
+      </button>
+      <div className="carousel-content">
+        <h2 className="carousel-title">{regimens[selectedRegimen]}</h2>
+        <p className="carousel-description">
+          {getRegimenDescription(regimens[selectedRegimen])}
+        </p>
+      </div>
+      <button className="carousel-btn" onClick={handleNext}>
+        &gt; {/* Right arrow */}
+      </button>
     </div>
   );
+}
+
+function getRegimenDescription(regimen) {
+  switch (regimen) {
+    case "PPL":
+      return "Push-Pull-Legs: A versatile workout split focusing on muscle groups.";
+    case "Bro-Split":
+      return "Bro Split: Classic bodybuilding approach focusing on individual muscles.";
+    case "Upper-Lower":
+      return "Upper-Lower Split: A balanced routine for upper and lower body workouts.";
+    case "Full-Body":
+      return "Full-Body: A comprehensive routine hitting all major muscle groups.";
+    default:
+      return "";
+  }
 }
