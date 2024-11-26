@@ -1,0 +1,127 @@
+PPL
+    SUNDAY (Push):
+        - Barbell Bench Press
+        - Dumbbell Lateral Raise
+        - Tricep Pushdown
+        - Incline Dumbbell Press
+        - Rear Delt fly
+        - Overhead Cable Extension
+
+    MONDAY (Pull):
+        - Wide Grip Machine Rows
+        - No Money Curls
+        - Dumbbell Shrugs
+        - Hammer Curls
+        - Lat Pulldown
+
+    TUESDAY (Legs):
+        - Seated Hamstring Curl
+        - Hack Squat (Glute Focused)
+        - Calf Raises
+        - Leg Extensions
+
+    WEDNESDAY: Rest
+
+    THURSDAY (Push):
+        - Incline Barbell Press
+        - Cable Lateral Raise
+        - Unilateral Tricep Pushdown
+        - Dips
+        - Rear Delt Fly
+
+    FRIDAY(Pull):
+        - Bent Over Barbell Rows
+        - Behind The Back Cable Curl
+        - Dumbbell Shrugs
+        - Hammer Curls
+        - Single Arm Lat Pull Down
+
+    SATURDAY (Legs):
+        - Leg Extensions
+        - Hack Squat (Quadtraceps Focused)
+        - Calf Raises
+        - Laying Hamstring Curl
+
+Bro Split
+    SUNDAY (Chest):
+        - Bench Press
+        - High to Low Cable Flys
+        - Machine Fly
+        - Dips
+
+    MONDAY (Back):
+        - Machine Rows
+        - Pull Ups
+        - Bent Over Barbell Rows
+        - Lat Pull Down
+
+    TUESDAY (Shoulders):
+        - Dumbbell Lateral Raises
+        - Overhead Barbell Press
+        - Rear Delt Flys (Dumbbells or Cables)
+
+    WEDNESDAY (Arms):
+        - EZ Bar Curls
+        - Tricep Pushdown
+        - Hammer Curls
+        - Katana Extensions
+
+    THURSDAY (Legs):
+        - Leg Extensions
+        - Hacksquat
+        - Calf Raises 
+        - Hamstring Curls
+        - Squats
+
+    FRIDAY: Rest 
+
+    SATURDAY: Rest
+
+
+
+Arnold Split
+    SUNDAY: (Rest)
+    MONDAY (Legs): 
+        - Barbell Squat
+        - Calf Raises
+        - Hamstring Curls
+        - Leg Extensions
+    TUESDAY (Chest and Back):
+        - Incline Hammer Strength Press
+        - Chest Supported Rows
+        - Barbell Flat Bench Press
+        - Lat Pullovers
+        - Pec Fly
+        - Pull Ups
+    WEDNESDAY (Shoulders and Arms):
+        - Shoulder Press
+        - Overhead Tricep Extensions
+        - Hammer Curls
+        - Lateral Raises
+        - Tricep Dips
+        - Preacher Curls
+        - Tricep Rope Pushdowns
+        - Forearm Curls
+        - Rear Delt Flys
+    THURSDAY (Legs):
+        - Barbell Squat
+        - Calf Raises
+        - Hamstring Curls
+        - Leg Extensions
+    FRIDAY (Chest and Back):
+        - Incline Hammer Strength Press
+        - Chest Supported Rows
+        - Barbell Flat Bench Press
+        - Lat Pullovers
+        - Pec Fly
+        - Pull Ups
+    SATURDAY (Shoulders and Arms):
+        - Shoulder Press
+        - Overhead Tricep Extensions
+        - Hammer Curls
+        - Lateral Raises
+        - Tricep Dips
+        - Preacher Curls
+        - Tricep Rope Pushdowns
+        - Forearm Curls
+        - Rear Delt Flys
