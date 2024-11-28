@@ -4,7 +4,7 @@ export default function Layout({ children }) {
       <body>
         <header>
           <h1>Workout Planner</h1>
-          <link rel="stylesheet" href="carstyle.css"></link>
+          <link rel="stylesheet" href="styles.css"></link>
         </header>
         <main>{children}</main>
         <footer>© 2024 GitGud Fitness</footer>
