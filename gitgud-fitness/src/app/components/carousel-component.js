@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./carstyle.css";
+import "../styles.css";
 
 export default function CarouselComponent({ onSelectRegimen }) {
   const regimens = ["PPL", "Bro-Split", "Upper-Lower", "Full-Body"];

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+  font-family: 'Koulen', sans-serif;
+  background: url('/src/app/assets/background.jpg') no-repeat center center fixed; /*figure out how to use a bg image, ts not working*/
+  background-size: cover;
+  background-color: #1f1e1e;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(180deg, #0056f7, #ff3c00);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0.5em 0;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/*Carousel Start*/
+.carousel-container {
+  font-family: 'Koulen', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #383838;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.carousel-content {
+  text-align: center;
+  padding: 0 20px;
+}
+  
+.carousel-title {
+  
+  font-size: 24px;
+  color:#f0f0f0;
+  margin: 0;
+}
+  
+.carousel-description {
+  font-size: 16px;
+  color: #d3d3d3;
+  margin-top: 8px;
+}
+  
+.carousel-btn {
+  background-color: #555555;
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+}
+  
+.carousel-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(180deg, #6d34f3, #a87bf1)
+}
+
+.carousel-btn:active {
+  transform: scale(0.95);
+}
+/*Carousel End*/
+
+/*Day-View Start*/
+.day-view-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 150px auto;
+  padding: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.day-view {
+  flex: 1;
+  background: #383838;
+  padding: 20px;
+}
+
+/*Header styling*/
+.day-header {
+  background: linear-gradient(180deg,  #6d34f3, #a87bf1);
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.spaced-day {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+/*Workout list*/
+.workout-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.workout-item {
+  background: #916ff0;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.workout-item:hover {
+  background-color: #ede0fa;
+  transform: translateX(5px);
+}
+
+/*Exercise panel styling*/
+.exercise-panel {
+  flex: 1;
+  background: #535353;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 5px solid #242323;
+}
+
+.exercise-panel h4 {
+  font-size: 1.5rem;
+  color: #d39cf3;
+  margin-bottom: 10px;
+}
+
+.exercise-panel p {
+  font-size: 1rem;
+  color: #afaeae;
+  text-align: center;
+}
+/*Day view end*/
