@@ -4,6 +4,7 @@ import CarouselComponent from "./components/carousel-component";
 import WeekView from "./components/week-view";
 import DayView from "./components/day-view";
 import data from "./assets/db.json";
+import RankingSystem from './components/ranking-system';
 
 export default function Page() {
   const [selectedRegimen, setSelectedRegimen] = useState("PPL");
@@ -28,6 +29,7 @@ export default function Page() {
       <CarouselComponent onSelectRegimen={handleRegimenSelect} />
       <WeekView regimenData={regimenData} onDaySelect={handleDaySelect} />
       <DayView dayData={regimenData.days[selectedDayIndex]} />
+      <RankingSystem />
     </div>
   );
 }
