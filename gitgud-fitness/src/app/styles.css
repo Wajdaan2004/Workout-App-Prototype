@@ -152,3 +152,100 @@ h1 {
   text-align: center;
 }
 /*Day view end*/
+
+/*Ranking system start*/
+.ranking-container {
+  background: #383838;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ranking-container h2 {
+  font-size: 24px;
+  color: #f0f0f0;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.input-row input {
+  width: 48%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #555555;
+}
+
+.ranking-container button {
+  background: #6d34f3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.ranking-container button:hover {
+  background: #a87bf1;
+}
+
+.ranking-container p {
+  font-size: 18px;
+  color: #f0f0f0;
+  margin-top: 15px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.input-row select,
+.input-row input {
+  font-family: 'Koulen', sans-serif;
+  width: 30%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #555555;
+  background: #383838;
+  color: #f0f0f0;
+}
+
+.input-row select:focus,
+.input-row input:focus {
+  outline: none;
+  border-color: #6d34f3;
+}
+.ranking-container button {
+  font-family: 'Koulen', sans-serif;
+  background: linear-gradient(140deg, #910ccf, rgb(100, 39, 197));
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.ranking-container button:hover {
+  background: linear-gradient(140deg, #4b2786, #782a9c);
+}
+
+.ranking-container button:active {
+  transform: scale(0.95);
+}
+
+/*Ranking system end*/
