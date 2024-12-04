@@ -3,6 +3,7 @@ import "../styles.css";
 
 const exerciseDescriptions = {
   "Push: Bench Press": "A compound exercise that primarily targets the chest, shoulders, and triceps.",
+  "Chest: Bench Press": "A compound exercise that primarily targets the chest, shoulders, and triceps.",
   "Overhead Press": "A shoulder exercise that focuses on deltoids and triceps.",
   "Tricep Pushdown": "An isolation exercise for the triceps using a cable machine.",
   "Pull: Deadlift": "A compound exercise that targets the lower back, glutes, hamstrings, and core.",
@@ -20,6 +21,7 @@ const exerciseDescriptions = {
   "Legs: Lunges": "A lower-body exercise targeting the quads, hamstrings, and glutes.",
   "Leg Extensions": "An isolation exercise focusing on the quads.",
   "Leg Curl": "An isolation exercise for the hamstrings.",
+  "Rest": "Rest your muscles",
 };
 
 export default function DayView({ dayData }) {
